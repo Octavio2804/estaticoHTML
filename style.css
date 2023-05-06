@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Assets/Fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: Tex;
+    src: url(./Assets/Fonts/Tex/texgyreadventor-bold.otf);
+}
+
+/* HEADER */
+
+.header {
+    background-color: #F2F5EA;
+    padding: 30px 20px;
+}
+
+.header-categorias {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos{
+    text-decoration: none;
+    font-family: Tex;
+    color: black;
+}
+.sobre-nosotros{
+    text-decoration: none;
+    font-family: Tex;
+    color: black;
+}
+.header-productos{
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F5EA;
+}
+.header-productos nav h1{
+    font-family: Tex;
+    font-size: 25px;
+}
+
+/* MAIN INDEX */
+.air-jordan-1{
+    padding: 10px;
+    background-color: white;
+}
+.air-jordan-1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    height: 400px;
+    min-width: none;
+}
+.titulo-air-jordan-1{
+    font-family: Roboto;
+}
+
+.resumen-air-1{
+    font-family: Tex;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.nike-air{
+    background-color: rgba(49, 49, 49, 0.288);
+    padding: 10px;
+}
+.nike-air img{
+    border-radius: 150px;
+}
+
+.camisetas-futbol{
+    padding: 10px;
+    background-color: #d1563d81;
+}
+.camisetas-futbol-contenido{
+    display: flex;
+    justify-content: end;
+}
+.camisetas-futbol-contenido img{
+    border-radius: 150px;
+}
+.camiseta-argentina{
+    padding: 10px;
+    background-color: #7cc6fe71;
+}
+.camiseta-argentina img{
+    border-radius: 150px;
+}
+
+.productos-jordan-1{
+    padding: 7px;
+}
+.producto-camiseta-river{
+    padding: 7px;
+}
+.comprar-web{
+    text-decoration: none;
+    font-family: Tex;
+}
+.subtitulo-nike-air{
+    font-family: Tex;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font: bold;
+}
+.subtitulo-camisetas{
+    font-family: Tex;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font: bold;
+}
+.subtitulo-arg{
+    font-family: Tex;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font: bold;
+}
+.whatsapp-web {
+    position: sticky;
+    bottom: 30px;
+    display: flex;
+    justify-content: end;
+}
+.whatsapp-web img{
+    border-radius: 15px;
+    width: 50px;
+    margin-right: 10px;
+}
+.whatsapp-web:hover{
+    text-shadow: 1px 4px 5px rgba(0,131,28,0.7);
+}
+
+.carousel{
+    height: 600px;
+    overflow: hidden;
+}
+.carousel-inner img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PRODUCTOS */
+.imagen-jordan-web{
+    border-radius: 10px;
+}
+
+.imagen-camiseta-web{
+    border-radius: 10px;
+}
+/* MEDIA QUERRY */
+@media(max-width: 575px) {
+    .subtitulo-nike-air{
+        display: none;
+    }
+    .subtitulo-camisetas{
+        display: none;
+    }
+    .subtitulo-arg{
+        display: none;
+    }
+    .comprar-web{
+        display: none;
+    }
+    .whatsapp{
+        display: none;
+    }
+    .resumen_jordan_productos_web{
+        display: none;
+    }
+    .resumen_camiseta_productos_web{
+        display: none;
+    }
+    .imagen-jordan-web{
+        display: none;
+    }
+    .imagen-camiseta-web{
+        display: none;
+    }
+    .carousel{
+        display: none;
+    }
+}
+@media(min-width: 576px) {
+    .imagen-jordan-mobile{
+        display: none;
+    }
+    .imagen-camiseta-mobile{
+        display: none;
+    }
+    .air-jordan-1{
+        display: none;
+    }
+    .linea-divide-web{
+        display: none;
+}
+}
