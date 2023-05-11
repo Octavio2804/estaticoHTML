@@ -191,4 +191,48 @@
   font-family: Tex;
 }
 
+@media (min-width: 576px) {
+  .productos-jordan1__imagen-mobile {
+    display: none;
+  }
+  .producto-camiseta__imagen-mobile {
+    display: none;
+  }
+  .air1 {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .nike-air__subttulo {
+    display: none;
+  }
+  .camisetas__subtitulo {
+    display: none;
+  }
+  .argentina__subtitulo {
+    display: none;
+  }
+  .comprar-web {
+    display: none;
+  }
+  .whatsapp {
+    display: none;
+  }
+  .productos-jordan1--resumen-web {
+    display: none;
+  }
+  .producto-camiseta__resuen-web {
+    display: none;
+  }
+  .productos-jordan1__imagen-web {
+    display: none;
+  }
+  .producto-camiseta__imagen-web {
+    display: none;
+  }
+  .carousel {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
