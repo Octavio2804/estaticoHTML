@@ -1,3 +1,132 @@
+@import url(./utils/_variables.scss);
+.header {
+  background-color: #F2F5EA;
+  padding: 30px 20px;
+}
+.header__container-categorias {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container-categorias--sobre-nosotros {
+  text-decoration: none;
+  font-family: Tex;
+  color: black;
+}
+.header__container-categorias--productos {
+  text-decoration: none;
+  font-family: Tex;
+  color: black;
+}
 
+.air1 {
+  padding: 5px;
+  background-color: white;
+}
+.air1__foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  height: 400px;
+  min-width: none;
+}
+.air1__titulo {
+  font-family: Roboto;
+}
+.air1__resumen {
+  font-family: Tex;
+  font-size: small;
+  padding-bottom: 10px;
+}
+
+.productos__carousel {
+  height: 600px;
+  overflow: hidden;
+}
+
+.nike-air {
+  background-color: rgba(49, 49, 49, 0.2862745098);
+  padding: 10px;
+}
+.nike-air__subtitulo {
+  font-family: Tex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font: bold;
+}
+.nike-air__foto {
+  border-radius: 150px;
+}
+.nike-air--comprar {
+  text-decoration: underline;
+  color: black;
+  font-size: 17px;
+  font-family: Tex;
+}
+
+.camisetas {
+  padding: 10px;
+  background-color: rgba(209, 86, 61, 0.5058823529);
+}
+.camisetas__contenido {
+  display: flex;
+  justify-content: end;
+}
+.camisetas__contenido__subtitulo {
+  font-family: Tex;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font: bold;
+}
+.camisetas__contenido--foto {
+  border-radius: 150px;
+}
+.camisetas--comprar {
+  text-decoration: underline;
+  color: black;
+  font-size: 17px;
+  font-family: Tex;
+}
+
+.argentina {
+  padding: 10px;
+  background-color: rgba(124, 198, 254, 0.4431372549);
+}
+.argentina__subtitulo {
+  font-family: Tex;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font: bold;
+}
+.argentina__subtitulo--foto {
+  border-radius: 150px;
+}
+.argentina--comprar {
+  text-decoration: underline;
+  color: black;
+  font-size: 17px;
+  font-family: Tex;
+}
+
+.header-productos {
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F5EA;
+}
+.header-productos__titulo {
+  font-family: Tex;
+  font-size: 25px;
+}
 
 /*# sourceMappingURL=main.css.map */

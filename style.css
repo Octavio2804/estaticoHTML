@@ -24,42 +24,6 @@ ul{
 }
 
 /* HEADER */
-
-.header {
-    background-color: #F2F5EA;
-    padding: 30px 20px;
-}
-
-.header__container-categorias {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.productos{
-    text-decoration: none;
-    font-family: Tex;
-    color: black;
-}
-.sobre-nosotros{
-    text-decoration: none;
-    font-family: Tex;
-    color: black;
-}
-.header-productos{
-    margin: 0 auto;
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F2F5EA;
-}
-.header-productos nav h1{
-    font-family: Tex;
-    font-size: 25px;
-}
-
 .header-sobre-nosotros{
     background-color: #F2F5EA;
     padding: 30px 20px;
@@ -70,100 +34,7 @@ ul{
     font-family: Tex;
 }
 
-/* MAIN INDEX */
-.air1 {
-    padding: 5px;
-    background-color: white;
-}
-.air1 img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 100vh;
-    height: 400px;
-    min-width: none;
-}
-.air1__titulo {
-    font-family: Roboto;
-}
-
-.air1__resumen {
-    font-family: Tex;
-    font-size: small;
-    padding-bottom: 10px;
-}
-
-.nike-air{
-    background-color: rgba(49, 49, 49, 0.288);
-    padding: 10px;
-}
-
-.nike-air__subtitulor{
-    font-family: Tex;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font: bold;
-}
-
-.nike-air img{
-    border-radius: 150px;
-}
-
-.camisetas{
-    padding: 10px;
-    background-color: #d1563d81;
-}
-.camisetas__contenido{
-    display: flex;
-    justify-content: end;
-}
-.camisetas__contenido img{
-    border-radius: 150px;
-}
-
-.camisetas__subtitulo{
-    font-family: Tex;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font: bold;
-}
-
-.argentina{
-    padding: 10px;
-    background-color: #7cc6fe71;
-}
-
-.argentina__subtitulo{
-    font-family: Tex;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font: bold;
-}
-
-.argentina img{
-    border-radius: 150px;
-}
-
-.comprar-web{
-    text-decoration: none;
-    font-family: Tex;
-}
-
-.carousel{
-    height: 600px;
-    overflow: hidden;
-}
-.carousel-inner img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* PRODUCTOS */
+/* MAIN PRODUCTOS */
 .imagen-jordan-web{
     border-radius: 10px;
 }

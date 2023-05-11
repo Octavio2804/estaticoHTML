@@ -1,0 +1,157 @@
+@import url(./utils/_variables.scss);
+//------------------------------------------------------------------
+//---------------------MAIN INDEX---------------------
+//-----------------HEADER-----------------
+.header{
+    background-color: #F2F5EA;
+    padding: 30px 20px;
+
+    &__container-categorias{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--sobre-nosotros{
+            text-decoration: none;
+            font-family: Tex;
+            color: black;
+        }
+
+        &--productos{
+            text-decoration: none;
+            font-family: Tex;
+            color: black;
+        }
+    }
+}
+//-----------------JORDAN 1-----------------
+.air1{
+    padding: 5px;
+    background-color: white;
+
+    &__foto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 100vh;
+        height: 400px;
+        min-width: none;
+    }
+
+    &__titulo{
+        font-family: Roboto;
+    }
+
+    &__resumen{
+        font-family: Tex;
+        font-size: small;
+        padding-bottom: 10px;
+    }
+}
+
+//----------------CAROUSEL----------------
+.productos__carousel{
+    height: 600px;
+    overflow: hidden;
+}
+//----------------------------------------
+
+//-----------------AIR MAX-----------------
+.nike-air{
+    background-color: #31313149;
+    padding: 10px;
+
+    &__subtitulo{
+        font-family: Tex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font: bold;
+    }
+
+    &__foto{
+        border-radius: 150px;
+    }
+    &--comprar{
+        text-decoration: underline;
+        color: black;
+        font-size: 17px;
+        font-family: Tex;
+    }
+}
+
+//-----------------CAMISETAS RIVER-----------------
+.camisetas{
+    padding: 10px;
+    background-color: #d1563d81;
+
+    &__contenido{
+        display: flex;
+        justify-content: end;
+
+        &__subtitulo{
+            font-family: Tex;
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font: bold;
+        }
+
+        &--foto{
+            border-radius: 150px;
+        }
+    }
+    &--comprar{
+        text-decoration: underline;
+        color: black;
+        font-size: 17px;
+        font-family: Tex;
+    }
+}
+
+//-----------------CAMISETAS ARGENTINA-----------------
+ .argentina{
+    padding: 10px;
+    background-color: #7cc6fe71;
+
+    &__subtitulo{
+        font-family: Tex;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font: bold;
+
+        &--foto{
+            border-radius: 150px;
+        }
+    }
+
+    &--comprar{
+        text-decoration: underline;
+        color: black;
+        font-size: 17px;
+        font-family: Tex;
+    }
+ }
+
+ //------------------------------------------------------------------
+
+//---------------------MAIN PRODUCTOS---------------------
+//-----------------HEADER-----------------
+.header-productos{
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F5EA;
+
+    &__titulo{
+        font-family: Tex;
+        font-size: 25px;
+    }
+}
