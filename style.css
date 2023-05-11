@@ -23,33 +23,6 @@ ul{
     src: url(./Assets/Fonts/Tex/texgyreadventor-bold.otf);
 }
 
-/* HEADER */
-.header-sobre-nosotros{
-    background-color: #F2F5EA;
-    padding: 30px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-height: 100px;
-    font-family: Tex;
-}
-
-/* MAIN PRODUCTOS */
-.imagen-jordan-web{
-    border-radius: 10px;
-}
-
-.imagen-camiseta-web{
-    border-radius: 10px;
-}
-
-.productos-jordan1{
-    padding: 7px;
-}
-.producto-camiseta{
-    padding: 7px;
-}
-
 /* SOBRE NOSOTROS */
 .info-empresa{
     font-family: Tex;
@@ -77,20 +50,7 @@ ul{
 
 /* WHATSAPP */
 
-.whatsapp-web {
-    position: sticky;
-    bottom: 30px;
-    display: flex;
-    justify-content: end;
-}
-.whatsapp-web img{
-    border-radius: 15px;
-    width: 50px;
-    margin-right: 10px;
-}
-.whatsapp-web:hover{
-    text-shadow: 1px 4px 5px rgba(0,131,28,0.7);
-}
+
 
 /* MEDIA QUERRY */
 @media(max-width: 575px) {

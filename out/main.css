@@ -1,4 +1,20 @@
 @import url(./utils/_variables.scss);
+.whatsapp-web {
+  position: sticky;
+  bottom: 30px;
+  display: flex;
+  justify-content: end;
+}
+.whatsapp-web__imagen {
+  border-radius: 15px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.whatsapp-web:hover {
+  text-shadow: 1px 4px 5px rgba(0, 131, 28, 0.7);
+}
+
 .header {
   background-color: #F2F5EA;
   padding: 30px 20px;
@@ -127,6 +143,52 @@
 .header-productos__titulo {
   font-family: Tex;
   font-size: 25px;
+}
+
+.productos-jordan1 {
+  padding: 7px;
+}
+.productos-jordan1__imagen-web {
+  border-radius: 10px;
+}
+
+.productos-camiseta {
+  padding: 7px;
+}
+.productos-camiseta__imagen-web {
+  border-radius: 10px;
+}
+
+.header-sobre-nosotros {
+  background-color: #F2F5EA;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100px;
+  font-family: Tex;
+}
+
+.info-empresa {
+  font-family: Tex;
+  padding: 10px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.mapa__titulo {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.contacto {
+  background-color: #F2F5EA;
+  font-family: Tex;
 }
 
 /*# sourceMappingURL=main.css.map */

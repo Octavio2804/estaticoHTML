@@ -1,5 +1,4 @@
-
-/* GLOBAL */
+//-------------------- GLOBAL -------------------- 
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +13,7 @@ ul{
     list-style-type: none;
 }
 
-/* FUENTE */
+//-------------------- FUENTE -------------------- 
 @font-face {
     font-family: Roboto;
     src: url(../Fonts/Roboto/Roboto-Bold.ttf);
@@ -25,4 +24,5 @@ ul{
     src: url(../Fonts/Tex/texgyreadventor-italic.otf);
 }
 
-$bpWeb: 576px;
+//-------------------- BREAKPOINTS -------------------- 
+$bpSmall: 576px;
