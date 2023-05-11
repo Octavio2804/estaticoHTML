@@ -30,7 +30,7 @@ ul{
     padding: 30px 20px;
 }
 
-.header-categorias {
+.header__container-categorias {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -71,11 +71,11 @@ ul{
 }
 
 /* MAIN INDEX */
-.air-jordan-1{
+.air1 {
     padding: 5px;
     background-color: white;
 }
-.air-jordan-1 img{
+.air1 img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,11 +84,11 @@ ul{
     height: 400px;
     min-width: none;
 }
-.titulo-air-jordan-1{
+.air1__titulo {
     font-family: Roboto;
 }
 
-.resumen-air-1{
+.air1__resumen {
     font-family: Tex;
     font-size: small;
     padding-bottom: 10px;
@@ -98,73 +98,59 @@ ul{
     background-color: rgba(49, 49, 49, 0.288);
     padding: 10px;
 }
+
+.nike-air__subtitulor{
+    font-family: Tex;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font: bold;
+}
+
 .nike-air img{
     border-radius: 150px;
 }
 
-.camisetas-futbol{
+.camisetas{
     padding: 10px;
     background-color: #d1563d81;
 }
-.camisetas-futbol-contenido{
+.camisetas__contenido{
     display: flex;
     justify-content: end;
 }
-.camisetas-futbol-contenido img{
-    border-radius: 150px;
-}
-.camiseta-argentina{
-    padding: 10px;
-    background-color: #7cc6fe71;
-}
-.camiseta-argentina img{
+.camisetas__contenido img{
     border-radius: 150px;
 }
 
-.productos-jordan-1{
-    padding: 7px;
+.camisetas__subtitulo{
+    font-family: Tex;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font: bold;
 }
-.producto-camiseta-river{
-    padding: 7px;
+
+.argentina{
+    padding: 10px;
+    background-color: #7cc6fe71;
 }
+
+.argentina__subtitulo{
+    font-family: Tex;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font: bold;
+}
+
+.argentina img{
+    border-radius: 150px;
+}
+
 .comprar-web{
     text-decoration: none;
     font-family: Tex;
-}
-.subtitulo-nike-air{
-    font-family: Tex;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font: bold;
-}
-.subtitulo-camisetas{
-    font-family: Tex;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font: bold;
-}
-.subtitulo-arg{
-    font-family: Tex;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font: bold;
-}
-.whatsapp-web {
-    position: sticky;
-    bottom: 30px;
-    display: flex;
-    justify-content: end;
-}
-.whatsapp-web img{
-    border-radius: 15px;
-    width: 50px;
-    margin-right: 10px;
-}
-.whatsapp-web:hover{
-    text-shadow: 1px 4px 5px rgba(0,131,28,0.7);
 }
 
 .carousel{
@@ -184,6 +170,13 @@ ul{
 
 .imagen-camiseta-web{
     border-radius: 10px;
+}
+
+.productos-jordan1{
+    padding: 7px;
+}
+.producto-camiseta{
+    padding: 7px;
 }
 
 /* SOBRE NOSOTROS */
@@ -210,15 +203,33 @@ ul{
     background-color: #F2F5EA;
     font-family: Tex;
 }
+
+/* WHATSAPP */
+
+.whatsapp-web {
+    position: sticky;
+    bottom: 30px;
+    display: flex;
+    justify-content: end;
+}
+.whatsapp-web img{
+    border-radius: 15px;
+    width: 50px;
+    margin-right: 10px;
+}
+.whatsapp-web:hover{
+    text-shadow: 1px 4px 5px rgba(0,131,28,0.7);
+}
+
 /* MEDIA QUERRY */
 @media(max-width: 575px) {
-    .subtitulo-nike-air{
+    .nike-air__subtitulo{
         display: none;
     }
-    .subtitulo-camisetas{
+    .camisetas__subtitulo{
         display: none;
     }
-    .subtitulo-arg{
+    .argentina__subtitulo{
         display: none;
     }
     .comprar-web{
@@ -227,16 +238,16 @@ ul{
     .whatsapp{
         display: none;
     }
-    .resumen_jordan_productos_web{
+    .productos-jordan1--resumen-web{
         display: none;
     }
-    .resumen_camiseta_productos_web{
+    .producto-camiseta__resuen-web{
         display: none;
     }
-    .imagen-jordan-web{
+    .productos-jordan1__imagen-web{
         display: none;
     }
-    .imagen-camiseta-web{
+    .producto-camiseta__imagen-web{
         display: none;
     }
     .carousel{
@@ -244,16 +255,13 @@ ul{
     }
 }
 @media(min-width: 576px) {
-    .imagen-jordan-mobile{
+    .productos-jordan1__imagen-mobile{
         display: none;
     }
-    .imagen-camiseta-mobile{
+    .producto-camiseta__imagen-mobile{
         display: none;
     }
-    .air-jordan-1{
+    .air1{
         display: none;
     }
-    .linea-divide-web{
-        display: none;
-}
 }
