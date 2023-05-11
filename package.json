@@ -4,7 +4,7 @@
   "description": "Este es la segunda pre entrega de la practica de HTML y CSS del curso de **Desarrollo Web**",
   "main": "index.js",
   "scripts": {
-    "build-sass": "sass ./sass/main.scss ./salida/main.css -w"
+    "sass": "sass ./sass/main.scss ./out/main.css -w"
   },
   "author": "",
   "license": "ISC",
