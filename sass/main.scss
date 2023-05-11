@@ -71,7 +71,7 @@
 
 //----------------CAROUSEL----------------
 .productos__carousel{
-    height: 600px;
+    max-height: 600px;
     overflow: hidden;
 }
 //----------------------------------------
@@ -110,18 +110,18 @@
         display: flex;
         justify-content: end;
 
-        &__subtitulo{
-            font-family: Tex;
-            display: flex;
-            justify-content: center;
-            font-size: 30px;
-            font: bold;
-        }
-
         &--foto{
             border-radius: 150px;
         }
     }
+    &__subtitulo{
+        font-family: Tex;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font: bold;
+    }
+
     &--comprar{
         text-decoration: underline;
         color: black;
@@ -245,7 +245,7 @@
 }
 
 @media (max-width:575px) {
-    .nike-air__subttulo{
+    .nike-air__subtitulo{
         display: none;
     }
     .camisetas__subtitulo{
