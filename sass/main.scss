@@ -1,4 +1,29 @@
 @import url(./utils/_variables.scss);
+//---------------------GLOBAL---------------------
+//---------------------BORDER-BOX---------------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+//---------------------FUENTES---------------------
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/Fonts/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: Tex;
+    src: url(../assets/Fonts/Tex/texgyreadventor-bold.otf);
+}
 //-----------------WHATSAPP-----------------
 .whatsapp-web {
     position: sticky;
@@ -42,7 +67,7 @@
         }
     }
 }
-//---------------------INDEX---------------------
+
 //-----------------JORDAN 1-----------------
 .air1{
     padding: 5px;
@@ -73,6 +98,12 @@
 .productos__carousel{
     max-height: 600px;
     overflow: hidden;
+}
+.carousel-control-prev{
+    top: 250px;
+}
+.carousel-control-next{
+    top: 250px;
 }
 //----------------------------------------
 

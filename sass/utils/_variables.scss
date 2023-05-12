@@ -1,28 +1,8 @@
 //-------------------- GLOBAL -------------------- 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
-}
 
 //-------------------- FUENTE -------------------- 
-@font-face {
-    font-family: Roboto;
-    src: url(../Fonts/Roboto/Roboto-Bold.ttf);
-}
 
-@font-face {
-    font-family: Tex;
-    src: url(../Fonts/Tex/texgyreadventor-italic.otf);
-}
 
 //-------------------- BREAKPOINTS -------------------- 
 $bpSmall: 576px;
