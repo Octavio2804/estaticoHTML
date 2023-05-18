@@ -14,18 +14,31 @@
     <link rel="stylesheet" href="./out/main.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-        <nav>
-            <!-- desktop -->
-            <ul class="header__container-categorias">
-            <li><a href="./pages/productos.html" class="header__container-categorias--productos">Productos</a></li>
-            <li><a href="./index.html"></a><img src="./assets/Images/logo-dexter-png.png" alt="" width="75pxpx"></li>
-            <li><a href="./pages/sobre-nosotros.html" class="header__container-categorias--sobre-nosotros">Sobre Nosotros</a></li>
-            </ul>
+    <!-------------------------- NAVBAR -------------------------->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                 <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/estilos.html">Estilos</a>
+                 </li>
+                  <li class="nav-item">
+                   <a class="nav-link" href="./pages/productos.html">Productos</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link disabled">Disabled</a>    
+                 </li>
+                </ul>
+             </div>
+            </div>
         </nav>
-        </div>
-    </header>
 
     <main>  
         <section class="productos">

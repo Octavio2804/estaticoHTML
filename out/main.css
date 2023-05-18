@@ -1,4 +1,4 @@
-@import url(./utils/_variables.scss);
+@import url(./utils/_variables.sass);
 * {
   margin: 0;
   padding: 0;
@@ -189,16 +189,6 @@ ul {
   border-radius: 10px;
 }
 
-.header-sobre-nosotros {
-  background-color: #F2F5EA;
-  padding: 30px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-height: 100px;
-  font-family: Tex;
-}
-
 .info-empresa {
   font-family: Tex;
   padding: 10px;
@@ -219,6 +209,124 @@ ul {
 .contacto {
   background-color: #F2F5EA;
   font-family: Tex;
+}
+
+.header-estilos {
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F5EA;
+}
+.header-estilos__titulo {
+  font-family: Tex;
+  font-size: 25px;
+}
+
+.casual {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #EFEFEF;
+}
+.casual_titulo {
+  font-family: Tex;
+  font-size: 40px;
+}
+.casual_texto {
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.casual__fotos {
+  display: flex;
+  width: 700px;
+  height: 530px;
+  translate: 550px;
+}
+.casual__fotos img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.casual__fotos img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.deportiva {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #FD706B;
+}
+.deportiva_titulo {
+  font-family: Tex;
+  font-size: 40px;
+}
+.deportiva_texto {
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.deportiva__fotos {
+  display: flex;
+  width: 700px;
+  height: 530px;
+  translate: 550px;
+}
+.deportiva__fotos img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.deportiva__fotos img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.accesorios {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #344966;
+}
+.accesorios_titulo {
+  font-family: Tex;
+  font-size: 40px;
+}
+.accesorios_texto {
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.accesorios__fotos {
+  display: flex;
+  width: 700px;
+  height: 530px;
+  translate: 550px;
+}
+.accesorios__fotos img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.accesorios__fotos img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
 }
 
 @media (min-width: 576px) {
