@@ -224,27 +224,31 @@ ul {
   font-size: 25px;
 }
 
-.casual {
+.casual-web {
   padding: 20px;
   font-size: 20px;
   background-color: #EFEFEF;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.casual_titulo {
+.casual-web_titulo {
   font-family: Tex;
   font-size: 40px;
 }
-.casual_texto {
+.casual-web_texto {
   font-family: Roboto;
   font-size: 25px;
 }
 
-.casual__fotos {
+.casual-web__fotos {
   display: flex;
-  width: 700px;
+  width: 800px;
   height: 530px;
-  translate: 550px;
 }
-.casual__fotos img {
+.casual-web__fotos img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
@@ -252,34 +256,37 @@ ul {
   transition: 0.5s ease;
 }
 
-.casual__fotos img:hover {
+.casual-web__fotos img:hover {
   cursor: crosshair;
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
 }
 
-.deportiva {
+.deportiva-web {
   padding: 20px;
   font-size: 20px;
   background-color: #FD706B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.deportiva_titulo {
+.deportiva-web_titulo {
   font-family: Tex;
   font-size: 40px;
 }
-.deportiva_texto {
+.deportiva-web_texto {
   font-family: Roboto;
   font-size: 25px;
 }
 
-.deportiva__fotos {
+.deportiva-web__fotos {
   display: flex;
-  width: 700px;
+  width: 800px;
   height: 530px;
-  translate: 550px;
 }
-.deportiva__fotos img {
+.deportiva-web__fotos img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
@@ -287,34 +294,38 @@ ul {
   transition: 0.5s ease;
 }
 
-.deportiva__fotos img:hover {
+.deportiva-web__fotos img:hover {
   cursor: crosshair;
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
 }
 
-.accesorios {
+.accesorios-web {
   padding: 20px;
   font-size: 20px;
   background-color: #344966;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.accesorios_titulo {
+.accesorios-web_titulo {
   font-family: Tex;
   font-size: 40px;
 }
-.accesorios_texto {
+.accesorios-web_texto {
   font-family: Roboto;
   font-size: 25px;
 }
 
-.accesorios__fotos {
+.accesorios-web__fotos {
   display: flex;
-  width: 700px;
+  width: 800px;
   height: 530px;
-  translate: 550px;
 }
-.accesorios__fotos img {
+.accesorios-web__fotos img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
@@ -322,11 +333,177 @@ ul {
   transition: 0.5s ease;
 }
 
-.accesorios__fotos img:hover {
+.accesorios-web__fotos img:hover {
   cursor: crosshair;
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
+}
+
+.casual-mobile {
+  padding: 10px;
+  font-size: 10px;
+  background-color: #EFEFEF;
+}
+.casual-mobile_titulo {
+  font-family: Tex;
+  font-size: 20px;
+}
+.casual-mobile_texto {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.casual-mobile__fotos {
+  display: flex;
+  width: auto;
+  max-width: 500px;
+  height: 300pxpx;
+  translate: 75pxpx;
+}
+.casual-mobile__fotos img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.casual-mobile__fotos img:hover {
+  cursor: auto;
+  width: 100px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.deportiva-mobile {
+  padding: 10px;
+  font-size: 10px;
+  background-color: #FD706B;
+}
+.deportiva-mobile_titulo {
+  font-family: Tex;
+  font-size: 20px;
+}
+.deportiva-mobile_texto {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.deportiva-mobile__fotos {
+  display: flex;
+  width: auto;
+  max-width: 500px;
+  height: 300pxpx;
+  translate: 75pxpx;
+}
+.deportiva-mobile__fotos img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.deportiva-mobile__fotos img:hover {
+  cursor: auto;
+  width: 100px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.accesorios-mobile {
+  padding: 10px;
+  font-size: 10px;
+  background-color: #344966;
+}
+.accesorios-mobile_titulo {
+  font-family: Tex;
+  font-size: 20px;
+}
+.accesorios-mobile_texto {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.accesorios-mobile__fotos {
+  display: flex;
+  width: auto;
+  max-width: 500px;
+  height: 300pxpx;
+  translate: 75pxpx;
+}
+.accesorios-mobile__fotos img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.accesorios-mobile__fotos img:hover {
+  cursor: auto;
+  width: 100px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.header-sobre-nosotros {
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F5EA;
+}
+.header-sobre-nosotros__titulo {
+  font-family: Tex;
+  font-size: 25px;
+}
+
+.info-empresa {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.mobile-info {
+  width: auto;
+  padding: 10px;
+}
+.mobile-info__texto {
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: italic;
+}
+
+.mapa-web {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mapa-web__titulo {
+  font-family: Tex;
+  font-size: 25px;
+}
+
+.mapa-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.mapa-mobile__titulo {
+  font-family: Tex;
+  font-size: 15px;
+}
+
+.contacto-web {
+  background-color: #F2F5EA;
+  padding: 10px;
+  font-style: normal;
+  font: bold;
 }
 
 @media (min-width: 576px) {
@@ -337,6 +514,21 @@ ul {
     display: none;
   }
   .air1 {
+    display: none;
+  }
+  .mapa-mobile {
+    display: none;
+  }
+  .mobile-info {
+    display: none;
+  }
+  .casual-mobile {
+    display: none;
+  }
+  .deportiva-mobile {
+    display: none;
+  }
+  .accesorios-mobile {
     display: none;
   }
 }
@@ -369,6 +561,30 @@ ul {
     display: none;
   }
   .carousel {
+    display: none;
+  }
+  .mapa-web {
+    display: none;
+  }
+  .info-empresa {
+    display: none;
+  }
+  .casual-web {
+    display: none;
+  }
+  .deportiva-web {
+    display: none;
+  }
+  .accesorios-web {
+    display: none;
+  }
+  .casual-web {
+    display: none;
+  }
+  .deportiva-web {
+    display: none;
+  }
+  .accesorios-web {
     display: none;
   }
 }

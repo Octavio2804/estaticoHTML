@@ -187,7 +187,6 @@ ul{
  }
 
  //------------------------------------------------------------------
-
 //---------------------MAIN PRODUCTOS---------------------
 //-----------------HEADER-----------------
 .header-productos{
@@ -222,6 +221,7 @@ ul{
     }
 }
 //------------------------------------------------------------------
+
 //---------------------MAIN SOBRE NOSOTROS---------------------
 //----------------------SOBRE NOSOTROS----------------------
 //-----------------INFO DE LA EMPRESA-----------------
@@ -266,29 +266,159 @@ ul{
         font-size: 25px;
     }
 }
-//---------------------MAIN ESTILOS---------------------
-//---------------------CASUAL---------------------
-.casual{
+//---------------------MAIN ESTILOS WEB---------------------
+//---------------------CASUAL WEB---------------------
+.casual-web{
     padding: 20px;
     font-size: 20px;
+    background-color: #EFEFEF;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &_titulo{
+        font-family: Tex;
+        font-size: 40px;
+    }
+
+    &_texto{
+        font-family: Roboto;
+        font-size: 25px;
+    }
+}
+
+.casual-web__fotos{
+    display: flex;
+    width: 800px;
+    height: 530px;
+
+    & img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+}
+
+.casual-web__fotos img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+//---------------------DEPORTIVA WEB---------------------
+.deportiva-web{
+    padding: 20px;
+    font-size: 20px;
+    background-color: #FD706B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    &_titulo{
+        font-family: Tex;
+        font-size: 40px;
+    }
+
+    &_texto{
+        font-family: Roboto;
+        font-size: 25px;
+    }
+}
+
+.deportiva-web__fotos{
+    display: flex;
+    width: 800px;
+    height: 530px;
+
+    & img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+}
+
+.deportiva-web__fotos img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+//---------------------ACCESORIOS WEB---------------------
+.accesorios-web{
+    padding: 20px;
+    font-size: 20px;
+    background-color: #344966;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    &_titulo{
+        font-family: Tex;
+        font-size: 40px;
+    }
+
+    &_texto{
+        font-family: Roboto;
+        font-size: 25px;
+    }
+}
+
+.accesorios-web__fotos{
+    display: flex;
+    width: 800px;
+    height: 530px;
+
+    & img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+}
+
+.accesorios-web__fotos img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+//---------------------MAIN ESTILOS MOBILE---------------------
+//---------------------CASUAL MOBILE---------------------
+.casual-mobile{
+    padding: 10px;
+    font-size: 10px;
     background-color: #EFEFEF;
 
     &_titulo{
         font-family: Tex;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     &_texto{
         font-family: Roboto;
-        font-size: 25px;
+        font-size: 15px;
     }
 }
 
-.casual__fotos{
+.casual-mobile__fotos{
     display: flex;
-    width: 700px;
-    height: 530px;
-    translate: 550px;
+    width: auto;
+    max-width: 500px;
+    height: 300pxpx;
+    translate: 75pxpx;
 
     & img{
         width: 0px;
@@ -299,36 +429,37 @@ ul{
     }
 }
 
-.casual__fotos img:hover{
-    cursor: crosshair;
-    width: 300px;
+.casual-mobile__fotos img:hover{
+    cursor: auto;
+    width: 100px;
     opacity: 1;
     filter: contrast(120%);
 }
 
-//---------------------DEPORTIVA---------------------
-.deportiva{
-    padding: 20px;
-    font-size: 20px;
+//---------------------DEPORTIVA MOBILE---------------------
+
+.deportiva-mobile{
+    padding: 10px;
+    font-size: 10px;
     background-color: #FD706B;
-    
 
     &_titulo{
         font-family: Tex;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     &_texto{
         font-family: Roboto;
-        font-size: 25px;
+        font-size: 15px;
     }
 }
 
-.deportiva__fotos{
+.deportiva-mobile__fotos{
     display: flex;
-    width: 700px;
-    height: 530px;
-    translate: 550px;
+    width: auto;
+    max-width: 500px;
+    height: 300pxpx;
+    translate: 75pxpx;
 
     & img{
         width: 0px;
@@ -339,35 +470,37 @@ ul{
     }
 }
 
-.deportiva__fotos img:hover{
-    cursor: crosshair;
-    width: 300px;
+.deportiva-mobile__fotos img:hover{
+    cursor: auto;
+    width: 100px;
     opacity: 1;
     filter: contrast(120%);
 }
-//---------------------ACCESORIOS---------------------
-.accesorios{
-    padding: 20px;
-    font-size: 20px;
+
+//---------------------ACCESORIOS MOBILE---------------------
+
+.accesorios-mobile{
+    padding: 10px;
+    font-size: 10px;
     background-color: #344966;
-    
 
     &_titulo{
         font-family: Tex;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     &_texto{
         font-family: Roboto;
-        font-size: 25px;
+        font-size: 15px;
     }
 }
 
-.accesorios__fotos{
+.accesorios-mobile__fotos{
     display: flex;
-    width: 700px;
-    height: 530px;
-    translate: 550px;
+    width: auto;
+    max-width: 500px;
+    height: 300pxpx;
+    translate: 75pxpx;
 
     & img{
         width: 0px;
@@ -378,13 +511,74 @@ ul{
     }
 }
 
-.accesorios__fotos img:hover{
-    cursor: crosshair;
-    width: 300px;
+.accesorios-mobile__fotos img:hover{
+    cursor: auto;
+    width: 100px;
     opacity: 1;
     filter: contrast(120%);
 }
 //------------------------------------------------------------------
+//---------------------SOBRE NOSOTROS---------------------
+//---------------------HEADER SOBRE NOSOTROS---------------------
+.header-sobre-nosotros{
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F5EA;
+
+    &__titulo{
+        font-family: Tex;
+        font-size: 25px;
+    }
+}
+//---------------------MAIN SOBRE NOSOTROS---------------------
+.info-empresa{
+    font-size: 25px;
+    padding: 20px;
+}
+.mobile-info{
+    width: auto;
+    padding: 10px;
+
+    &__texto{
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: italic;
+    }
+}
+//---------------------MAPA SOBRE NOSOTROS---------------------
+.mapa-web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__titulo{
+        font-family: Tex;
+        font-size: 25px;
+    }
+}
+.mapa-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+
+    &__titulo{
+        font-family: Tex;
+        font-size: 15px;
+    }
+}
+//---------------------FORM CONTACTO---------------------
+.contacto-web{
+    background-color: #F2F5EA;
+    padding: 10px;
+    font-style: normal;
+    font: bold;
+}
 //---------------------MEDIAS QUERRY---------------------
 @media (min-width: 576px) {
     .productos-jordan1__imagen-mobile{
@@ -394,6 +588,21 @@ ul{
         display: none;
     }
     .air1{
+        display: none;
+    }
+    .mapa-mobile{
+        display: none;
+    }
+    .mobile-info{
+        display: none;
+    }
+    .casual-mobile{
+        display: none;
+    }
+    .deportiva-mobile{
+        display: none;
+    }
+    .accesorios-mobile{
         display: none;
     }
 }
@@ -427,6 +636,30 @@ ul{
         display: none;
     }
     .carousel{
+        display: none;
+    }
+    .mapa-web{
+        display: none;
+    }
+    .info-empresa{
+        display: none;
+    }
+    .casual-web{
+        display: none;
+    }
+    .deportiva-web{
+        display: none;
+    }
+    .accesorios-web{
+        display: none;
+    }
+    .casual-web{
+        display: none;
+    }
+    .deportiva-web{
+        display: none;
+    }
+    .accesorios-web{
         display: none;
     }
 }
