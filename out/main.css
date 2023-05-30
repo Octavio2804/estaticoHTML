@@ -504,6 +504,8 @@ ul {
   padding: 10px;
   font-style: normal;
   font: bold;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media (min-width: 576px) {
